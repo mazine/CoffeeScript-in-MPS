@@ -19,6 +19,7 @@ public class CoffeeClosure extends JsExpression implements JsStatementListHolder
   public static final String SHORT_DESCRIPTION = "shortDescription";
   public static final String ALIAS = "alias";
   public static final String VIRTUAL_PACKAGE = "virtualPackage";
+  public static final String EXPLICIT_MULTILINE = "explicitMultiline";
   public static final String RETURN_TYPE = "returnType";
   public static final String STATEMENT_LIST = "statementList";
   public static final String PARAMETER = "parameter";
@@ -50,6 +51,14 @@ public class CoffeeClosure extends JsExpression implements JsStatementListHolder
 
   public void setVirtualPackage(String value) {
     this.setProperty(CoffeeClosure.VIRTUAL_PACKAGE, value);
+  }
+
+  public boolean getExplicitMultiline() {
+    return this.getBooleanProperty(CoffeeClosure.EXPLICIT_MULTILINE);
+  }
+
+  public void setExplicitMultiline(boolean value) {
+    this.setBooleanProperty(CoffeeClosure.EXPLICIT_MULTILINE, value);
   }
 
   public JsType getReturnType() {

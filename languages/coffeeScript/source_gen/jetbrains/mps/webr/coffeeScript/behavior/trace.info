@@ -3,5 +3,15 @@
   <unitInfo fileName="CoffeeParameterDeclaration_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.webr.coffeeScript.behavior.CoffeeParameterDeclaration_BehaviorDescriptor" />
   <unitInfo fileName="CoffeeClosure_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.webr.coffeeScript.behavior.CoffeeClosure_BehaviorDescriptor" />
   <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.webr.coffeeScript.behavior.BehaviorAspectDescriptor" />
+  <root nodeId="4367459641968105258">
+    <nodeInfo nodeId="4367459641968110288" fileName="CoffeeClosure_Behavior.java" startLine="14" startPosition="78" endLine="15" endPosition="217" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4367459641968105258" fileName="CoffeeClosure_Behavior.java" startLine="10" startPosition="37" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="4367459641968105258" fileName="CoffeeClosure_Behavior.java" startLine="13" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_isMultiline_4367459641968105261#(Ljetbrains/mps/smodel/SNode;)Z" />
+    <scopeInfo nodeId="4367459641968105260" fileName="CoffeeClosure_Behavior.java" startLine="11" startPosition="43" endLine="11" endPosition="43" />
+    <scopeInfo nodeId="4367459641968105264" fileName="CoffeeClosure_Behavior.java" startLine="14" startPosition="78" endLine="15" endPosition="217" />
+    <scopeInfo nodeId="4367459641968105258" fileName="CoffeeClosure_Behavior.java" startLine="10" startPosition="37" endLine="13" endPosition="0" />
+    <scopeInfo nodeId="4367459641968105258" fileName="CoffeeClosure_Behavior.java" startLine="13" startPosition="0" endLine="17" endPosition="0" />
+    <unitInfo nodeId="4367459641968105258" fileName="CoffeeClosure_Behavior.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.webr.coffeeScript.behavior.CoffeeClosure_Behavior" />
+  </root>
 </debugInfo>
 

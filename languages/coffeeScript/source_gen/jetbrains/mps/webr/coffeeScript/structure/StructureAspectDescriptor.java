@@ -16,7 +16,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
   public ConceptDescriptor getDescriptor(String conceptFqName) {
     switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0a, conceptFqName)) {
       case 0:
-        return new CompiledConceptDescriptor("jetbrains.mps.webr.coffeeScript.structure.CoffeeClosure", "webr.javascript.structure.JsExpression", false, new String[]{"webr.javascript.structure.JsExpression", "webr.javascript.structure.JsStatementListHolder"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.webr.coffeeScript.structure.CoffeeClosure", "webr.javascript.structure.JsExpression", false, new String[]{"webr.javascript.structure.JsExpression", "webr.javascript.structure.JsStatementListHolder"}, new String[]{"explicitMultiline"}, new String[]{});
       case 1:
         return new CompiledConceptDescriptor("jetbrains.mps.webr.coffeeScript.structure.CoffeeParameterDeclaration", "webr.javascript.structure.JsBaseVariableDeclaration", false, new String[]{"webr.javascript.structure.JsBaseVariableDeclaration"}, new String[]{}, new String[]{});
       default:

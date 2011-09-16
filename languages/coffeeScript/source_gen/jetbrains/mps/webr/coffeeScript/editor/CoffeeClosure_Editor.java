@@ -9,6 +9,7 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.nodeEditor.style.AttributeCalculator;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
@@ -19,6 +20,7 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.webr.coffeeScript.behavior.CoffeeClosure_Behavior;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
@@ -69,8 +71,41 @@ public class CoffeeClosure_Editor extends DefaultNodeEditor {
     editorCell.setCanBeFolded(true);
     editorCell.setFoldedCell(this.createConstant_f9cvwu_a5a_0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_f9cvwu_a5a(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_f9cvwu_b5a(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_f9cvwu_b5a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_f9cvwu_c5a(editorContext, node));
+    return editorCell;
+  }
+
+  private EditorCell createCollection_f9cvwu_b5a(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
+    editorCell.setCellId("Collection_f9cvwu_b5a");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+      style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, new AttributeCalculator<Boolean>() {
+        public Boolean calculate(EditorCell cell) {
+          return CoffeeClosure_Editor._StyleParameter_QueryFunction_f9cvwu_a1b5a((cell == null ?
+            null :
+            cell.getSNode()
+          ), (cell == null ?
+            null :
+            cell.getEditorContext()
+          ));
+        }
+      });
+      style.set(StyleAttributes.INDENT_LAYOUT_INDENT, new AttributeCalculator<Boolean>() {
+        public Boolean calculate(EditorCell cell) {
+          return CoffeeClosure_Editor._StyleParameter_QueryFunction_f9cvwu_a2b5a((cell == null ?
+            null :
+            cell.getSNode()
+          ), (cell == null ?
+            null :
+            cell.getEditorContext()
+          ));
+        }
+      });
+    }
+    editorCell.addEditorCell(this.createRefNode_f9cvwu_a1f0(editorContext, node));
     return editorCell;
   }
 
@@ -123,7 +158,17 @@ public class CoffeeClosure_Editor extends DefaultNodeEditor {
     BaseLanguageStyle_StyleSheet.getRightBrace(editorCell).apply(editorCell);
     {
       Style style = editorCell.getStyle();
-      style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
+      style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, new AttributeCalculator<Boolean>() {
+        public Boolean calculate(EditorCell cell) {
+          return CoffeeClosure_Editor._StyleParameter_QueryFunction_f9cvwu_a0c5a((cell == null ?
+            null :
+            cell.getSNode()
+          ), (cell == null ?
+            null :
+            cell.getEditorContext()
+          ));
+        }
+      });
     }
     editorCell.setDefaultText("");
     return editorCell;
@@ -162,17 +207,12 @@ public class CoffeeClosure_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_f9cvwu_b5a(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_f9cvwu_a1f0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("statementList");
     provider.setNoTargetText("<no statementList>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
-      style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
-    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -186,6 +226,18 @@ public class CoffeeClosure_Editor extends DefaultNodeEditor {
 
   private static boolean renderingCondition_f9cvwu_a3a(SNode node, EditorContext editorContext, IScope scope) {
     return SLinkOperations.getTarget(node, "returnType", true) != null;
+  }
+
+  private static boolean _StyleParameter_QueryFunction_f9cvwu_a1b5a(SNode node, EditorContext editorContext) {
+    return CoffeeClosure_Behavior.call_isMultiline_4367459641968105261(node);
+  }
+
+  private static boolean _StyleParameter_QueryFunction_f9cvwu_a2b5a(SNode node, EditorContext editorContext) {
+    return CoffeeClosure_Behavior.call_isMultiline_4367459641968105261(node);
+  }
+
+  private static boolean _StyleParameter_QueryFunction_f9cvwu_a0c5a(SNode node, EditorContext editorContext) {
+    return CoffeeClosure_Behavior.call_isMultiline_4367459641968105261(node);
   }
 
   private static class parameterListHandler_f9cvwu_b0 extends RefNodeListHandler {
