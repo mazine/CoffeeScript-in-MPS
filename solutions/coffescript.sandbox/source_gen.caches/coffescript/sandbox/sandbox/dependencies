@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="coffescript.sandbox.sandbox.JsDependenciesConfiguration" file="JsDependenciesConfiguration.xml" />
+  <dependency className="coffescript.sandbox.sandbox.functions" file="functions.js" />
+  <dependency className="coffescript.sandbox.sandbox.myprogram" file="myprogram.js" />
+</dependenciesRoot>
+

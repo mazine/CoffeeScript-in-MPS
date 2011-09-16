@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="-54w06sgan9jx8i2e3eewjjnnljgyypt">
+  <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.smodel.generator.smodelAdapter(MPS.Classpath/jetbrains.mps.lang.smodel.generator.smodelAdapter@java_stub)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
+  <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" />
+  <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
+  <dep model="r:00000000-0000-4000-0000-011c895903ac(jetbrains.mps.baseLanguageInternal.structure)" />
+  <dep model="r:145f797c-a02f-444d-99aa-415c563ab48d(webr.javascript.behavior)" />
+  <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+  <dep model="r:5932e276-6af4-4e18-be5d-d7028f044426(coffescript.structure)" hash="-bpretq2vddn19qt5u1ly3rin4nrzxzk" />
+  <dep model="r:5f049ccb-8073-41aa-bd90-5842cc097194(jetbrains.mps.webr.javascriptInternal.behavior)" />
+  <dep model="r:87465bd1-1c6c-4e47-91bc-fd77eb03742d(jetbrains.mps.webr.javascriptInternal.structure)" />
+  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+  <dep model="r:f445b203-80a4-439b-81f6-46572b14f40c(webr.javascript.structure)" />
+  <common hash="b8o1igac8lx81a4ca67pjo5zwd19bg" dependsOnNodes="true">
+    <dep root="2205814310922318033" />
+    <dep root="5140412041909903592" />
+    <dep root="6013483361553516336" />
+    <dep model="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:145f797c-a02f-444d-99aa-415c563ab48d(webr.javascript.behavior)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:5932e276-6af4-4e18-be5d-d7028f044426(coffescript.structure)" />
+    <dep model="r:5f049ccb-8073-41aa-bd90-5842cc097194(jetbrains.mps.webr.javascriptInternal.behavior)" />
+    <dep model="r:87465bd1-1c6c-4e47-91bc-fd77eb03742d(jetbrains.mps.webr.javascriptInternal.structure)" />
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <dep model="r:f445b203-80a4-439b-81f6-46572b14f40c(webr.javascript.structure)" />
+    <file name="BehaviorAspectDescriptor.java" />
+    <file name="CsArgList_BehaviorDescriptor.java" />
+    <file name="CsArrayExpression_BehaviorDescriptor.java" />
+    <file name="CsBaseVariableDeclaration_BehaviorDescriptor.java" />
+    <file name="CsBaseVariableReference_BehaviorDescriptor.java" />
+    <file name="CsBinaryOperation_BehaviorDescriptor.java" />
+    <file name="CsBinaryOperator_BehaviorDescriptor.java" />
+    <file name="CsBlock_BehaviorDescriptor.java" />
+    <file name="CsExpressionStatement_BehaviorDescriptor.java" />
+    <file name="CsExpressionWrapper_BehaviorDescriptor.java" />
+    <file name="CsExpression_BehaviorDescriptor.java" />
+    <file name="CsFunctionBlock_BehaviorDescriptor.java" />
+    <file name="CsFunctionExpression_BehaviorDescriptor.java" />
+    <file name="CsIFunction_BehaviorDescriptor.java" />
+    <file name="CsIfExpression_BehaviorDescriptor.java" />
+    <file name="CsInitVariableExpression_BehaviorDescriptor.java" />
+    <file name="CsOperatorList_BehaviorDescriptor.java" />
+    <file name="CsOperator_BehaviorDescriptor.java" />
+    <file name="CsParameterDeclaration_BehaviorDescriptor.java" />
+    <file name="CsParameterList_BehaviorDescriptor.java" />
+    <file name="CsParameterReference_BehaviorDescriptor.java" />
+    <file name="CsParenthesesExpression_BehaviorDescriptor.java" />
+    <file name="CsPriorityGroup_BehaviorDescriptor.java" />
+    <file name="CsReturnStatement_BehaviorDescriptor.java" />
+    <file name="CsSplatsParameterDeclaration_BehaviorDescriptor.java" />
+    <file name="CsStatement_BehaviorDescriptor.java" />
+    <file name="CsUnaryOperation_BehaviorDescriptor.java" />
+    <file name="CsUnaryOperator_BehaviorDescriptor.java" />
+    <file name="CsVariableDeclaration_BehaviorDescriptor.java" />
+    <file name="CsVariableReference_BehaviorDescriptor.java" />
+  </common>
+  <source id="6013483361553516336" name="CsBaseVariableDeclaration_Behavior" hash="-79eonnvqw5wvt107qizmshqj9jhapeh">
+    <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.smodel.generator.smodelAdapter(MPS.Classpath/jetbrains.mps.lang.smodel.generator.smodelAdapter@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:5932e276-6af4-4e18-be5d-d7028f044426(coffescript.structure)" />
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <file name="CsBaseVariableDeclaration_Behavior.java" />
+  </source>
+  <source id="2205814310922318033" name="CsBinaryOperator_Behavior" hash="-di2t9o69y1m4ts59odlpakjb8ratfcv">
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:5932e276-6af4-4e18-be5d-d7028f044426(coffescript.structure)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <file name="CsBinaryOperator_Behavior.java" />
+  </source>
+  <source id="5140412041909903592" name="CsExpression_Behavior" hash="1y3msionuyud4uqgosaa4cnmgwkw4tv">
+    <dep root="2205814310922318033" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895903ac(jetbrains.mps.baseLanguageInternal.structure)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:5932e276-6af4-4e18-be5d-d7028f044426(coffescript.structure)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <file name="CsExpression_Behavior.java" />
+  </source>
+</dependencies>
+

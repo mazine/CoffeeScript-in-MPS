@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="IntentionsDescriptor.java" startLine="9" startPosition="0" endLine="19" endPosition="0" unitName="coffescript.intentions.IntentionsDescriptor" />
+  <root nodeId="377098314686671042">
+    <nodeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="15" startPosition="30" endLine="16" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="19" startPosition="36" endLine="20" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="23" startPosition="37" endLine="24" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="27" startPosition="44" endLine="28" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="377098314686671047" fileName="FlipCsBinaryOperation_Intention.java" startLine="31" startPosition="85" endLine="32" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="36" startPosition="58" endLine="37" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="38" startPosition="5" endLine="39" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="377098314686671051" fileName="FlipCsBinaryOperation_Intention.java" startLine="42" startPosition="90" endLine="43" endPosition="133" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1196949334185" fileName="FlipCsBinaryOperation_Intention.java" startLine="46" startPosition="76" endLine="47" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1196949346364" fileName="FlipCsBinaryOperation_Intention.java" startLine="47" startPosition="76" endLine="48" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1196949399093" fileName="FlipCsBinaryOperation_Intention.java" startLine="48" startPosition="78" endLine="49" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196949405005" fileName="FlipCsBinaryOperation_Intention.java" startLine="49" startPosition="66" endLine="50" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196949411964" fileName="FlipCsBinaryOperation_Intention.java" startLine="50" startPosition="67" endLine="51" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196949418676" fileName="FlipCsBinaryOperation_Intention.java" startLine="51" startPosition="70" endLine="52" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196949441448" fileName="FlipCsBinaryOperation_Intention.java" startLine="52" startPosition="70" endLine="53" endPosition="176" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="56" startPosition="37" endLine="57" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="11" startPosition="89" endLine="13" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="FlipCsBinaryOperation_Intention#()V" />
+    <nodeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="35" startPosition="84" endLine="38" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="14" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="18" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isParameterized#()Z" />
+    <nodeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="22" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isErrorIntention#()Z" />
+    <nodeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="26" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="30" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Ljava/lang/String;" />
+    <nodeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="41" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Z" />
+    <nodeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="55" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLocationString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="34" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Z" />
+    <nodeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="45" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
+    <scopeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="12" startPosition="44" endLine="12" endPosition="44" />
+    <scopeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="15" startPosition="30" endLine="16" endPosition="53" />
+    <scopeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="19" startPosition="36" endLine="20" endPosition="17" />
+    <scopeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="23" startPosition="37" endLine="24" endPosition="17" />
+    <scopeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="27" startPosition="44" endLine="28" endPosition="17" />
+    <scopeInfo nodeId="377098314686671044" fileName="FlipCsBinaryOperation_Intention.java" startLine="31" startPosition="85" endLine="32" endPosition="28" />
+    <scopeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="36" startPosition="58" endLine="37" endPosition="19" />
+    <scopeInfo nodeId="377098314686671050" fileName="FlipCsBinaryOperation_Intention.java" startLine="42" startPosition="90" endLine="43" endPosition="133" />
+    <scopeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="56" startPosition="37" endLine="57" endPosition="36" />
+    <scopeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="11" startPosition="89" endLine="13" endPosition="3" />
+    <scopeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="14" startPosition="0" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
+    <scopeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="35" startPosition="84" endLine="39" endPosition="16" />
+    <scopeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
+    <scopeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="55" startPosition="0" endLine="59" endPosition="0" />
+    <scopeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="34" startPosition="0" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="377098314686671046" fileName="FlipCsBinaryOperation_Intention.java" startLine="46" startPosition="76" endLine="53" endPosition="176">
+      <varInfo nodeId="1196949334186" varName="oldLeft" />
+      <varInfo nodeId="1196949346365" varName="oldRight" />
+    </scopeInfo>
+    <scopeInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="45" startPosition="0" endLine="55" endPosition="0" />
+    <unitInfo nodeId="377098314686671042" fileName="FlipCsBinaryOperation_Intention.java" startLine="11" startPosition="0" endLine="60" endPosition="0" unitName="coffescript.intentions.FlipCsBinaryOperation_Intention" />
+  </root>
+  <root nodeId="377098314686671953">
+    <nodeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="15" startPosition="30" endLine="16" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="19" startPosition="36" endLine="20" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="23" startPosition="37" endLine="24" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="27" startPosition="44" endLine="28" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="377098314686671958" fileName="CsSurroundWithParentheses_Intention.java" startLine="31" startPosition="85" endLine="32" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="36" startPosition="58" endLine="37" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="38" startPosition="5" endLine="39" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="377098314686671962" fileName="CsSurroundWithParentheses_Intention.java" startLine="42" startPosition="90" endLine="43" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="377098314686671964" fileName="CsSurroundWithParentheses_Intention.java" startLine="46" startPosition="76" endLine="47" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="50" startPosition="37" endLine="51" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="11" startPosition="101" endLine="13" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CsSurroundWithParentheses_Intention#()V" />
+    <nodeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="35" startPosition="84" endLine="38" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="14" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="18" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isParameterized#()Z" />
+    <nodeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="22" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isErrorIntention#()Z" />
+    <nodeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="26" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="30" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Ljava/lang/String;" />
+    <nodeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="41" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Z" />
+    <nodeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="45" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
+    <nodeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="49" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLocationString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="34" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Z" />
+    <scopeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="12" startPosition="48" endLine="12" endPosition="48" />
+    <scopeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="15" startPosition="30" endLine="16" endPosition="48" />
+    <scopeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="19" startPosition="36" endLine="20" endPosition="17" />
+    <scopeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="23" startPosition="37" endLine="24" endPosition="17" />
+    <scopeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="27" startPosition="44" endLine="28" endPosition="17" />
+    <scopeInfo nodeId="377098314686671955" fileName="CsSurroundWithParentheses_Intention.java" startLine="31" startPosition="85" endLine="32" endPosition="39" />
+    <scopeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="36" startPosition="58" endLine="37" endPosition="19" />
+    <scopeInfo nodeId="377098314686671961" fileName="CsSurroundWithParentheses_Intention.java" startLine="42" startPosition="90" endLine="43" endPosition="16" />
+    <scopeInfo nodeId="377098314686671957" fileName="CsSurroundWithParentheses_Intention.java" startLine="46" startPosition="76" endLine="47" endPosition="95" />
+    <scopeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="50" startPosition="37" endLine="51" endPosition="36" />
+    <scopeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="11" startPosition="101" endLine="13" endPosition="3" />
+    <scopeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="14" startPosition="0" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
+    <scopeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="35" startPosition="84" endLine="39" endPosition="16" />
+    <scopeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
+    <scopeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="45" startPosition="0" endLine="49" endPosition="0" />
+    <scopeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="49" startPosition="0" endLine="53" endPosition="0" />
+    <scopeInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="34" startPosition="0" endLine="41" endPosition="0" />
+    <unitInfo nodeId="377098314686671953" fileName="CsSurroundWithParentheses_Intention.java" startLine="11" startPosition="0" endLine="54" endPosition="0" unitName="coffescript.intentions.CsSurroundWithParentheses_Intention" />
+  </root>
+</debugInfo>
+

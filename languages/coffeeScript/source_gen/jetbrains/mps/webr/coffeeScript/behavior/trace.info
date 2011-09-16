@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="CoffeeParameterDeclaration_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.webr.coffeeScript.behavior.CoffeeParameterDeclaration_BehaviorDescriptor" />
+  <unitInfo fileName="CoffeeClosure_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.webr.coffeeScript.behavior.CoffeeClosure_BehaviorDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.webr.coffeeScript.behavior.BehaviorAspectDescriptor" />
+</debugInfo>
+

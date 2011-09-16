@@ -1,0 +1,38 @@
+<beans>
+  <bean id="coffescript.sandbox.sandbox.functions" class="jetbrains.mps.webr.javascript.runtime.jsDependencies.JsDependency">
+    <property name="name">
+      <value>coffescript.sandbox.sandbox.functions</value>
+    </property>
+    <property name="urlGetter">
+      <bean class="jetbrains.mps.webr.javascript.runtime.jsDependencies.ResourceUrlGetter" autowire="byType">
+        <property name="resourcePath">
+          <value>coffescript/sandbox/sandbox/functions.js</value>
+        </property>
+      </bean>
+    </property>
+    <property name="runTimeDeps">
+      <list></list>
+    </property>
+    <property name="compileTimeDeps">
+      <list></list>
+    </property>
+  </bean>
+  <bean id="coffescript.sandbox.sandbox.myprogram" class="jetbrains.mps.webr.javascript.runtime.jsDependencies.JsDependency">
+    <property name="name">
+      <value>coffescript.sandbox.sandbox.myprogram</value>
+    </property>
+    <property name="urlGetter">
+      <bean class="jetbrains.mps.webr.javascript.runtime.jsDependencies.ResourceUrlGetter" autowire="byType">
+        <property name="resourcePath">
+          <value>coffescript/sandbox/sandbox/myprogram.js</value>
+        </property>
+      </bean>
+    </property>
+    <property name="runTimeDeps">
+      <list></list>
+    </property>
+    <property name="compileTimeDeps">
+      <list></list>
+    </property>
+  </bean>
+</beans>

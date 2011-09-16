@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="coffescript.intentions.CsSurroundWithParentheses_Intention" file="CsSurroundWithParentheses_Intention.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.EditorContext" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.intentions.Intention" />
+    <classNode extendsClassName="jetbrains.mps.intentions.SurroundWithIntention" />
+  </dependency>
+  <dependency className="coffescript.intentions.FlipCsBinaryOperation_Intention" file="FlipCsBinaryOperation_Intention.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.EditorContext" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.intentions.BaseIntention" />
+    <classNode extendsClassName="jetbrains.mps.intentions.Intention" />
+  </dependency>
+  <dependency className="coffescript.intentions.IntentionsDescriptor" file="IntentionsDescriptor.java">
+    <classNode dependClassName="coffescript.intentions.CsSurroundWithParentheses_Intention" />
+    <classNode dependClassName="coffescript.intentions.FlipCsBinaryOperation_Intention" />
+    <classNode dependClassName="jetbrains.mps.project.structure.modules.ModuleReference" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelReference" />
+    <classNode extendsClassName="jetbrains.mps.intentions.BaseIntentionsDescriptor" />
+  </dependency>
+</dependenciesRoot>
+

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="CsIFunction_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="coffescript.behavior.CsIFunction_BehaviorDescriptor" />
+  <unitInfo fileName="CsFunctionBlock_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="coffescript.behavior.CsFunctionBlock_BehaviorDescriptor" />
+  <unitInfo fileName="CsParenthesesExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="coffescript.behavior.CsParenthesesExpression_BehaviorDescriptor" />
+  <unitInfo fileName="CsUnaryOperator_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="coffescript.behavior.CsUnaryOperator_BehaviorDescriptor" />
+  <unitInfo fileName="CsBinaryOperator_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="coffescript.behavior.CsBinaryOperator_BehaviorDescriptor" />
+  <unitInfo fileName="CsUnaryOperation_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="coffescript.behavior.CsUnaryOperation_BehaviorDescriptor" />
+  <unitInfo fileName="CsSplatsParameterDeclaration_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="coffescript.behavior.CsSplatsParameterDeclaration_BehaviorDescriptor" />
+  <unitInfo fileName="CsInitVariableExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="coffescript.behavior.CsInitVariableExpression_BehaviorDescriptor" />
+  <unitInfo fileName="CsBinaryOperation_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="coffescript.behavior.CsBinaryOperation_BehaviorDescriptor" />
+  <unitInfo fileName="CsArrayExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="coffescript.behavior.CsArrayExpression_BehaviorDescriptor" />
+  <unitInfo fileName="CsParameterReference_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="coffescript.behavior.CsParameterReference_BehaviorDescriptor" />
+  <unitInfo fileName="CsBaseVariableReference_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="coffescript.behavior.CsBaseVariableReference_BehaviorDescriptor" />
+  <unitInfo fileName="CsVariableReference_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="coffescript.behavior.CsVariableReference_BehaviorDescriptor" />
+  <unitInfo fileName="CsParameterDeclaration_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="coffescript.behavior.CsParameterDeclaration_BehaviorDescriptor" />
+  <unitInfo fileName="CsExpressionStatement_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="coffescript.behavior.CsExpressionStatement_BehaviorDescriptor" />
+  <unitInfo fileName="CsExpressionWrapper_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="coffescript.behavior.CsExpressionWrapper_BehaviorDescriptor" />
+  <unitInfo fileName="CsReturnStatement_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="coffescript.behavior.CsReturnStatement_BehaviorDescriptor" />
+  <unitInfo fileName="CsFunctionExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="coffescript.behavior.CsFunctionExpression_BehaviorDescriptor" />
+  <unitInfo fileName="CsPriorityGroup_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="coffescript.behavior.CsPriorityGroup_BehaviorDescriptor" />
+  <unitInfo fileName="CsOperatorList_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="coffescript.behavior.CsOperatorList_BehaviorDescriptor" />
+  <unitInfo fileName="CsOperator_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="coffescript.behavior.CsOperator_BehaviorDescriptor" />
+  <unitInfo fileName="CsIfExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="coffescript.behavior.CsIfExpression_BehaviorDescriptor" />
+  <unitInfo fileName="CsArgList_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="coffescript.behavior.CsArgList_BehaviorDescriptor" />
+  <unitInfo fileName="CsParameterList_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="coffescript.behavior.CsParameterList_BehaviorDescriptor" />
+  <unitInfo fileName="CsVariableDeclaration_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="coffescript.behavior.CsVariableDeclaration_BehaviorDescriptor" />
+  <unitInfo fileName="CsBlock_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="coffescript.behavior.CsBlock_BehaviorDescriptor" />
+  <unitInfo fileName="CsStatement_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="coffescript.behavior.CsStatement_BehaviorDescriptor" />
+  <unitInfo fileName="CsExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="coffescript.behavior.CsExpression_BehaviorDescriptor" />
+  <unitInfo fileName="CsBaseVariableDeclaration_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="27" endPosition="0" unitName="coffescript.behavior.CsBaseVariableDeclaration_BehaviorDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="66" endPosition="0" unitName="coffescript.behavior.BehaviorAspectDescriptor" />
+  <root nodeId="2205814310922318033">
+    <nodeInfo nodeId="1214291396534" fileName="CsBinaryOperator_Behavior.java" startLine="12" startPosition="104" endLine="13" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2205814310922318033" fileName="CsBinaryOperator_Behavior.java" startLine="8" startPosition="40" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="2205814310922318033" fileName="CsBinaryOperator_Behavior.java" startLine="11" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_hasMorePriorityThan_1214291396529#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;)Z" />
+    <scopeInfo nodeId="2205814310922318035" fileName="CsBinaryOperator_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
+    <scopeInfo nodeId="1214291396533" fileName="CsBinaryOperator_Behavior.java" startLine="12" startPosition="104" endLine="13" endPosition="162" />
+    <scopeInfo nodeId="2205814310922318033" fileName="CsBinaryOperator_Behavior.java" startLine="8" startPosition="40" endLine="11" endPosition="0" />
+    <scopeInfo nodeId="2205814310922318033" fileName="CsBinaryOperator_Behavior.java" startLine="11" startPosition="0" endLine="15" endPosition="0">
+      <varInfo nodeId="1214291396530" varName="csBinaryOperator" />
+    </scopeInfo>
+    <unitInfo nodeId="2205814310922318033" fileName="CsBinaryOperator_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="coffescript.behavior.CsBinaryOperator_Behavior" />
+  </root>
+  <root nodeId="5140412041909903592">
+    <nodeInfo nodeId="3639529227212466827" fileName="CsExpression_Behavior.java" startLine="13" startPosition="107" endLine="14" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3639529227212466834" fileName="CsExpression_Behavior.java" startLine="15" startPosition="18" endLine="16" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3639529227212466842" fileName="CsExpression_Behavior.java" startLine="17" startPosition="95" endLine="18" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
+    <nodeInfo nodeId="3639529227212466848" fileName="CsExpression_Behavior.java" startLine="19" startPosition="7" endLine="20" endPosition="161" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3639529227212466857" fileName="CsExpression_Behavior.java" startLine="21" startPosition="117" endLine="22" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
+    <nodeInfo nodeId="3639529227212466862" fileName="CsExpression_Behavior.java" startLine="23" startPosition="7" endLine="24" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3639529227212466867" fileName="CsExpression_Behavior.java" startLine="25" startPosition="5" endLine="26" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5140412041909903592" fileName="CsExpression_Behavior.java" startLine="9" startPosition="36" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="3639529227212466840" fileName="CsExpression_Behavior.java" startLine="16" startPosition="55" endLine="19" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3639529227212466855" fileName="CsExpression_Behavior.java" startLine="20" startPosition="161" endLine="23" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3639529227212466831" fileName="CsExpression_Behavior.java" startLine="14" startPosition="28" endLine="25" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="5140412041909903592" fileName="CsExpression_Behavior.java" startLine="12" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getPrioritizedNode_3639529227212464656#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
+    <scopeInfo nodeId="5140412041909903594" fileName="CsExpression_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
+    <scopeInfo nodeId="3639529227212466841" fileName="CsExpression_Behavior.java" startLine="17" startPosition="95" endLine="18" endPosition="14" />
+    <scopeInfo nodeId="3639529227212466856" fileName="CsExpression_Behavior.java" startLine="21" startPosition="117" endLine="22" endPosition="14" />
+    <scopeInfo nodeId="5140412041909903592" fileName="CsExpression_Behavior.java" startLine="9" startPosition="36" endLine="12" endPosition="0" />
+    <scopeInfo nodeId="3639529227212466833" fileName="CsExpression_Behavior.java" startLine="15" startPosition="18" endLine="24" endPosition="87">
+      <varInfo nodeId="3639529227212466849" varName="parentBinaryOperator" />
+      <varInfo nodeId="3639529227212466835" varName="parent" />
+    </scopeInfo>
+    <scopeInfo nodeId="3639529227212464659" fileName="CsExpression_Behavior.java" startLine="13" startPosition="107" endLine="26" endPosition="18">
+      <varInfo nodeId="3639529227212466828" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="5140412041909903592" fileName="CsExpression_Behavior.java" startLine="12" startPosition="0" endLine="28" endPosition="0">
+      <varInfo nodeId="3639529227212466822" varName="csBinaryOperator" />
+    </scopeInfo>
+    <unitInfo nodeId="5140412041909903592" fileName="CsExpression_Behavior.java" startLine="9" startPosition="0" endLine="29" endPosition="0" unitName="coffescript.behavior.CsExpression_Behavior" />
+  </root>
+  <root nodeId="6013483361553516336">
+    <nodeInfo nodeId="1214291263305" fileName="CsBaseVariableDeclaration_Behavior.java" startLine="12" startPosition="78" endLine="13" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6013483361553516336" fileName="CsBaseVariableDeclaration_Behavior.java" startLine="8" startPosition="49" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="6013483361553516336" fileName="CsBaseVariableDeclaration_Behavior.java" startLine="11" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getPresentation_1213877396640#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/String;" />
+    <scopeInfo nodeId="6013483361553516338" fileName="CsBaseVariableDeclaration_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
+    <scopeInfo nodeId="1214291263304" fileName="CsBaseVariableDeclaration_Behavior.java" startLine="12" startPosition="78" endLine="13" endPosition="67" />
+    <scopeInfo nodeId="6013483361553516336" fileName="CsBaseVariableDeclaration_Behavior.java" startLine="8" startPosition="49" endLine="11" endPosition="0" />
+    <scopeInfo nodeId="6013483361553516336" fileName="CsBaseVariableDeclaration_Behavior.java" startLine="11" startPosition="0" endLine="15" endPosition="0" />
+    <unitInfo nodeId="6013483361553516336" fileName="CsBaseVariableDeclaration_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="coffescript.behavior.CsBaseVariableDeclaration_Behavior" />
+  </root>
+</debugInfo>
+

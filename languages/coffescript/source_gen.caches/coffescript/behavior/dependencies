@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="coffescript.behavior.BehaviorAspectDescriptor" file="BehaviorAspectDescriptor.java">
+    <classNode dependClassName="coffescript.behavior.CsArgList_BehaviorDescriptor" />
+    <classNode dependClassName="coffescript.behavior.CsArrayExpression_BehaviorDescriptor" />
+    <classNode dependClassName="coffescript.behavior.CsBinaryOperation_BehaviorDescriptor" />
+    <classNode dependClassName="coffescript.behavior.CsBinaryOperator_BehaviorDescriptor" />
+    <classNode dependClassName="coffescript.behavior.CsBlock_BehaviorDescriptor" />
+    <classNode dependClassName="coffescript.behavior.CsExpressionStatement_BehaviorDescriptor" />
+    <classNode dependClassName="coffescript.behavior.CsExpressionWrapper_BehaviorDescriptor" />
+    <classNode dependClassName="coffescript.behavior.CsFunctionExpression_BehaviorDescriptor" />
+    <classNode dependClassName="coffescript.behavior.CsIfExpression_BehaviorDescriptor" />
+    <classNode dependClassName="coffescript.behavior.CsInitVariableExpression_BehaviorDescriptor" />
+    <classNode dependClassName="coffescript.behavior.CsOperatorList_BehaviorDescriptor" />
+    <classNode dependClassName="coffescript.behavior.CsParameterDeclaration_BehaviorDescriptor" />
+    <classNode dependClassName="coffescript.behavior.CsParameterList_BehaviorDescriptor" />
+    <classNode dependClassName="coffescript.behavior.CsParameterReference_BehaviorDescriptor" />
+    <classNode dependClassName="coffescript.behavior.CsParenthesesExpression_BehaviorDescriptor" />
+    <classNode dependClassName="coffescript.behavior.CsPriorityGroup_BehaviorDescriptor" />
+    <classNode dependClassName="coffescript.behavior.CsReturnStatement_BehaviorDescriptor" />
+    <classNode dependClassName="coffescript.behavior.CsSplatsParameterDeclaration_BehaviorDescriptor" />
+    <classNode dependClassName="coffescript.behavior.CsUnaryOperation_BehaviorDescriptor" />
+    <classNode dependClassName="coffescript.behavior.CsUnaryOperator_BehaviorDescriptor" />
+    <classNode dependClassName="coffescript.behavior.CsVariableDeclaration_BehaviorDescriptor" />
+    <classNode dependClassName="coffescript.behavior.CsVariableReference_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Arrays" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsArgList_BehaviorDescriptor" file="CsArgList_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsArrayExpression_BehaviorDescriptor" file="CsArrayExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="coffescript.behavior.CsExpression_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsBaseVariableDeclaration_Behavior" file="CsBaseVariableDeclaration_Behavior.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsBaseVariableDeclaration_BehaviorDescriptor" file="CsBaseVariableDeclaration_BehaviorDescriptor.java">
+    <classNode dependClassName="coffescript.behavior.CsBaseVariableDeclaration_Behavior" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsBaseVariableReference_BehaviorDescriptor" file="CsBaseVariableReference_BehaviorDescriptor.java">
+    <classNode dependClassName="coffescript.behavior.CsExpression_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsBinaryOperation_BehaviorDescriptor" file="CsBinaryOperation_BehaviorDescriptor.java">
+    <classNode dependClassName="coffescript.behavior.CsExpression_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsBinaryOperator_Behavior" file="CsBinaryOperator_Behavior.java">
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsBinaryOperator_BehaviorDescriptor" file="CsBinaryOperator_BehaviorDescriptor.java">
+    <classNode dependClassName="coffescript.behavior.CsOperator_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsBlock_BehaviorDescriptor" file="CsBlock_BehaviorDescriptor.java">
+    <classNode dependClassName="coffescript.behavior.CsFunctionBlock_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsExpressionStatement_BehaviorDescriptor" file="CsExpressionStatement_BehaviorDescriptor.java">
+    <classNode dependClassName="coffescript.behavior.CsStatement_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsExpressionWrapper_BehaviorDescriptor" file="CsExpressionWrapper_BehaviorDescriptor.java">
+    <classNode dependClassName="coffescript.behavior.CsExpression_BehaviorDescriptor" />
+    <classNode dependClassName="coffescript.behavior.CsFunctionBlock_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsExpression_Behavior" file="CsExpression_Behavior.java">
+    <classNode dependClassName="coffescript.behavior.CsBinaryOperator_Behavior" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsExpression_BehaviorDescriptor" file="CsExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="coffescript.behavior.CsFunctionBlock_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsFunctionBlock_BehaviorDescriptor" file="CsFunctionBlock_BehaviorDescriptor.java" />
+  <dependency className="coffescript.behavior.CsFunctionExpression_BehaviorDescriptor" file="CsFunctionExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="coffescript.behavior.CsExpression_BehaviorDescriptor" />
+    <classNode dependClassName="coffescript.behavior.CsIFunction_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsIFunction_BehaviorDescriptor" file="CsIFunction_BehaviorDescriptor.java" />
+  <dependency className="coffescript.behavior.CsIfExpression_BehaviorDescriptor" file="CsIfExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsInitVariableExpression_BehaviorDescriptor" file="CsInitVariableExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="coffescript.behavior.CsExpression_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsOperatorList_BehaviorDescriptor" file="CsOperatorList_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsOperator_BehaviorDescriptor" file="CsOperator_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.webr.javascriptInternal.behavior.Operator_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsParameterDeclaration_BehaviorDescriptor" file="CsParameterDeclaration_BehaviorDescriptor.java">
+    <classNode dependClassName="coffescript.behavior.CsBaseVariableDeclaration_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsParameterList_BehaviorDescriptor" file="CsParameterList_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="webr.javascript.behavior.FormalParameterList_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsParameterReference_BehaviorDescriptor" file="CsParameterReference_BehaviorDescriptor.java">
+    <classNode dependClassName="coffescript.behavior.CsBaseVariableReference_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsParenthesesExpression_BehaviorDescriptor" file="CsParenthesesExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="coffescript.behavior.CsExpression_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsPriorityGroup_BehaviorDescriptor" file="CsPriorityGroup_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsReturnStatement_BehaviorDescriptor" file="CsReturnStatement_BehaviorDescriptor.java">
+    <classNode dependClassName="coffescript.behavior.CsStatement_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsSplatsParameterDeclaration_BehaviorDescriptor" file="CsSplatsParameterDeclaration_BehaviorDescriptor.java">
+    <classNode dependClassName="coffescript.behavior.CsParameterDeclaration_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsStatement_BehaviorDescriptor" file="CsStatement_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="webr.javascript.behavior.JsStatement_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsUnaryOperation_BehaviorDescriptor" file="CsUnaryOperation_BehaviorDescriptor.java">
+    <classNode dependClassName="coffescript.behavior.CsExpression_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsUnaryOperator_BehaviorDescriptor" file="CsUnaryOperator_BehaviorDescriptor.java">
+    <classNode dependClassName="coffescript.behavior.CsOperator_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsVariableDeclaration_BehaviorDescriptor" file="CsVariableDeclaration_BehaviorDescriptor.java">
+    <classNode dependClassName="coffescript.behavior.CsBaseVariableDeclaration_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="webr.javascript.behavior.IVarDeclaration_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="coffescript.behavior.CsVariableReference_BehaviorDescriptor" file="CsVariableReference_BehaviorDescriptor.java">
+    <classNode dependClassName="coffescript.behavior.CsBaseVariableReference_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+</dependenciesRoot>
+

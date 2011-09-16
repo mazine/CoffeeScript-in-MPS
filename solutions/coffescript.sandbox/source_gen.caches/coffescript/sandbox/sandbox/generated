@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="-5ocgz6e2vngx2umrwd5opuenustx87u">
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590527(jetbrains.springframework.configuration.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590529(jetbrains.springframework.configuration.generator.baseLanguage.template.main@generator)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590576(jetbrains.mps.gtext.generator.baseLanguage.template.main@generator)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590588(jetbrains.mps.xml.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590589(jetbrains.mps.xml.generator.baseLanguage.template.main@generator)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590592(jetbrains.mps.xmlInternal.generator.baseLanguage.template.main@generator)" />
+  <dep model="r:120b8530-a284-4943-97f2-78956137abd0(jetbrains.mps.webr.uri.structure)" />
+  <dep model="r:27206aae-969f-4c27-a941-ec1e4cf57738(webr.javascript.generator.baseLanguage.template.classStep@generator)" />
+  <dep model="r:2a71aaed-21c7-4624-8f79-2969ade37068(webr.javascript.global)" />
+  <dep model="r:6f1dfa90-c175-45b8-82b6-05da06e87d46(coffescript.global)" hash="-9kigw4ihd7iznf2d21pa0tt4b17flcw" />
+  <dep model="r:750b2961-aa9f-4033-be71-a00d29fe19ab(jetbrains.mps.webr.javascript.runtime.jsDependencies)" />
+  <dep model="r:7e42f0e6-c386-46e4-b63f-79baf17ee3a0(jetbrains.mps.webr.javascriptInternal.generator.baseLanguage.template.main@generator)" />
+  <dep model="r:87465bd1-1c6c-4e47-91bc-fd77eb03742d(jetbrains.mps.webr.javascriptInternal.structure)" />
+  <dep model="r:a83400fc-d6ad-4eab-8881-deec37fc7b3f(coffescript.generator.template.main@generator)" hash="-a7jngsit404flss6jco8ck5g9thzl5b" />
+  <dep model="r:cbe6c65c-b2a6-4722-88b0-628e422c0a62(webr.javascript.generator.baseLanguage.template.main@generator)" />
+  <dep model="r:fc337701-fb1d-4053-a06a-bbeb799c7298(jetbrains.springframework.configuration.schema)" />
+  <common hash="dhhzw62w6sk0ypvtduf07h1447pfh35" dependsOnNodes="true">
+    <dep root="3813788423728611264" />
+    <dep root="957609539633084715" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590527(jetbrains.springframework.configuration.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590529(jetbrains.springframework.configuration.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590576(jetbrains.mps.gtext.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590588(jetbrains.mps.xml.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590589(jetbrains.mps.xml.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590592(jetbrains.mps.xmlInternal.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:120b8530-a284-4943-97f2-78956137abd0(jetbrains.mps.webr.uri.structure)" />
+    <dep model="r:27206aae-969f-4c27-a941-ec1e4cf57738(webr.javascript.generator.baseLanguage.template.classStep@generator)" />
+    <dep model="r:750b2961-aa9f-4033-be71-a00d29fe19ab(jetbrains.mps.webr.javascript.runtime.jsDependencies)" />
+    <dep model="r:87465bd1-1c6c-4e47-91bc-fd77eb03742d(jetbrains.mps.webr.javascriptInternal.structure)" />
+    <dep model="r:fc337701-fb1d-4053-a06a-bbeb799c7298(jetbrains.springframework.configuration.schema)" />
+    <file name="JsDependenciesConfiguration.xml" />
+  </common>
+  <source id="3813788423728611264" name="functions.js" hash="-c0nj0pbyerjajwh847w9pkwju3ps41k">
+    <dep model="r:00000000-0000-4000-0000-011c89590576(jetbrains.mps.gtext.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:27206aae-969f-4c27-a941-ec1e4cf57738(webr.javascript.generator.baseLanguage.template.classStep@generator)" />
+    <dep model="r:7e42f0e6-c386-46e4-b63f-79baf17ee3a0(jetbrains.mps.webr.javascriptInternal.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:cbe6c65c-b2a6-4722-88b0-628e422c0a62(webr.javascript.generator.baseLanguage.template.main@generator)" />
+    <file name="functions.js" />
+  </source>
+  <source id="957609539633084715" name="myprogram.js" hash="6lldvtbfr85aswy702g78wc19g7gtkv">
+    <dep model="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590576(jetbrains.mps.gtext.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:27206aae-969f-4c27-a941-ec1e4cf57738(webr.javascript.generator.baseLanguage.template.classStep@generator)" />
+    <dep model="r:2a71aaed-21c7-4624-8f79-2969ade37068(webr.javascript.global)" />
+    <dep model="r:6f1dfa90-c175-45b8-82b6-05da06e87d46(coffescript.global)" />
+    <dep model="r:7e42f0e6-c386-46e4-b63f-79baf17ee3a0(jetbrains.mps.webr.javascriptInternal.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:a83400fc-d6ad-4eab-8881-deec37fc7b3f(coffescript.generator.template.main@generator)" />
+    <dep model="r:cbe6c65c-b2a6-4722-88b0-628e422c0a62(webr.javascript.generator.baseLanguage.template.main@generator)" />
+    <file name="myprogram.js" />
+  </source>
+</dependencies>
+

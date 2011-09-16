@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="6vka" modelUID="r:5932e276-6af4-4e18-be5d-d7028f044426(coffescript.structure)" version="-1" />
+    </dependencies>
+    <rename id="6vka.957609539633077205" type="CONCEPT" from="CSRootReference" to="CsRootReference" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6vka" modelUID="r:5932e276-6af4-4e18-be5d-d7028f044426(coffescript.structure)" version="0" />
+    </dependencies>
+    <rename id="6vka.957609539633084714" type="CONCEPT" from="CsRootReference" to="CSRootReference" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6vka" modelUID="r:5932e276-6af4-4e18-be5d-d7028f044426(coffescript.structure)" version="1" />
+    </dependencies>
+    <rename id="6vka.957609539633084714" type="CONCEPT" from="CSRootReference" to="CsRootReference" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6vka" modelUID="r:5932e276-6af4-4e18-be5d-d7028f044426(coffescript.structure)" version="2" />
+    </dependencies>
+    <rename id="6vka.957609539633094989" type="CONCEPT" from="CsBlocj" to="CsBlockStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6vka" modelUID="r:5932e276-6af4-4e18-be5d-d7028f044426(coffescript.structure)" version="3" />
+    </dependencies>
+    <rename id="6vka.957609539633101154" type="CONCEPT" from="CsFunction" to="CsFunctionExpression" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6vka" modelUID="r:5932e276-6af4-4e18-be5d-d7028f044426(coffescript.structure)" version="4" />
+    </dependencies>
+    <rename id="6vka.3813788423728684978" type="CONCEPT" from="sVariableDeclaration" to="CsVariableDeclaration" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6vka" modelUID="r:5932e276-6af4-4e18-be5d-d7028f044426(coffescript.structure)" version="5" />
+    </dependencies>
+    <rename id="6vka.3813788423728735329" type="CONCEPT" from="CaVariableReference" to="CsVariableReference" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6vka" modelUID="r:5932e276-6af4-4e18-be5d-d7028f044426(coffescript.structure)" version="6" />
+    </dependencies>
+    <rename id="6vka.9094263337737464290" type="CONCEPT" from="CsBinaryAlias" to="CsBinaryOperatorAlias" />
+  </StructureModification>
+</history>
+

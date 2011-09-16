@@ -1,0 +1,92 @@
+<beans>
+  <bean id="coffescript.test.CsBinaryExpressions" class="jetbrains.mps.webr.javascript.runtime.jsDependencies.JsDependency">
+    <property name="name">
+      <value>coffescript.test.CsBinaryExpressions</value>
+    </property>
+    <property name="urlGetter">
+      <bean class="jetbrains.mps.webr.javascript.runtime.jsDependencies.ResourceUrlGetter" autowire="byType">
+        <property name="resourcePath">
+          <value>coffescript/test/CsBinaryExpressions.js</value>
+        </property>
+      </bean>
+    </property>
+    <property name="runTimeDeps">
+      <list></list>
+    </property>
+    <property name="compileTimeDeps">
+      <list></list>
+    </property>
+  </bean>
+  <bean id="coffescript.test.CsExpressions" class="jetbrains.mps.webr.javascript.runtime.jsDependencies.JsDependency">
+    <property name="name">
+      <value>coffescript.test.CsExpressions</value>
+    </property>
+    <property name="urlGetter">
+      <bean class="jetbrains.mps.webr.javascript.runtime.jsDependencies.ResourceUrlGetter" autowire="byType">
+        <property name="resourcePath">
+          <value>coffescript/test/CsExpressions.js</value>
+        </property>
+      </bean>
+    </property>
+    <property name="runTimeDeps">
+      <list></list>
+    </property>
+    <property name="compileTimeDeps">
+      <list></list>
+    </property>
+  </bean>
+  <bean id="coffescript.test.CsFunctionsGen" class="jetbrains.mps.webr.javascript.runtime.jsDependencies.JsDependency">
+    <property name="name">
+      <value>coffescript.test.CsFunctionsGen</value>
+    </property>
+    <property name="urlGetter">
+      <bean class="jetbrains.mps.webr.javascript.runtime.jsDependencies.ResourceUrlGetter" autowire="byType">
+        <property name="resourcePath">
+          <value>coffescript/test/CsFunctionsGen.js</value>
+        </property>
+      </bean>
+    </property>
+    <property name="runTimeDeps">
+      <list></list>
+    </property>
+    <property name="compileTimeDeps">
+      <list></list>
+    </property>
+  </bean>
+  <bean id="coffescript.test.CsGlobalVariables" class="jetbrains.mps.webr.javascript.runtime.jsDependencies.JsDependency">
+    <property name="name">
+      <value>coffescript.test.CsGlobalVariables</value>
+    </property>
+    <property name="urlGetter">
+      <bean class="jetbrains.mps.webr.javascript.runtime.jsDependencies.ResourceUrlGetter" autowire="byType">
+        <property name="resourcePath">
+          <value>coffescript/test/CsGlobalVariables.js</value>
+        </property>
+      </bean>
+    </property>
+    <property name="runTimeDeps">
+      <list></list>
+    </property>
+    <property name="compileTimeDeps">
+      <list></list>
+    </property>
+  </bean>
+  <bean id="coffescript.test.gentest" class="jetbrains.mps.webr.javascript.runtime.jsDependencies.JsDependency">
+    <property name="name">
+      <value>coffescript.test.gentest</value>
+    </property>
+    <property name="urlGetter">
+      <bean class="jetbrains.mps.webr.javascript.runtime.jsDependencies.ResourceUrlGetter" autowire="byType">
+        <property name="resourcePath">
+          <value>coffescript/test/gentest.js</value>
+        </property>
+      </bean>
+    </property>
+    <property name="runTimeDeps">
+      <list></list>
+    </property>
+    <property name="compileTimeDeps">
+      <list></list>
+    </property>
+  </bean>
+</beans>

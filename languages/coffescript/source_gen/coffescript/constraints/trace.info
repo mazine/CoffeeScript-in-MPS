@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="29" endPosition="0" unitName="coffescript.constraints.ConstraintsAspectDescriptor" />
+  <root nodeId="1012626999295964138">
+    <nodeInfo nodeId="1012626999295964138" fileName="CsVariableReference_Constraints.java" startLine="23" startPosition="80" endLine="24" endPosition="178" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_v3g3aj_a0a1a0a0a1a0b0a1a0" />
+    <nodeInfo nodeId="1012626999295964138" fileName="CsVariableReference_Constraints.java" startLine="26" startPosition="44" endLine="27" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="1012626999295964138" fileName="CsVariableReference_Constraints.java" startLine="31" startPosition="83" endLine="32" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1012626999295964138" fileName="CsVariableReference_Constraints.java" startLine="35" startPosition="44" endLine="36" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1012626999295964142" fileName="CsVariableReference_Constraints.java" startLine="44" startPosition="142" endLine="45" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8981878424754633924" fileName="CsVariableReference_Constraints.java" startLine="45" startPosition="62" endLine="46" endPosition="155" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2205814310922253301" fileName="CsVariableReference_Constraints.java" startLine="46" startPosition="155" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="2205814310922288912" fileName="CsVariableReference_Constraints.java" startLine="48" startPosition="219" endLine="49" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="8981878424754633989" fileName="CsVariableReference_Constraints.java" startLine="49" startPosition="24" endLine="50" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2205814310922257082" fileName="CsVariableReference_Constraints.java" startLine="51" startPosition="13" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="989807379181100958" fileName="CsVariableReference_Constraints.java" startLine="54" startPosition="220" endLine="55" endPosition="138" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="989807379181100967" fileName="CsVariableReference_Constraints.java" startLine="57" startPosition="13" endLine="58" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1012626999295964138" fileName="CsVariableReference_Constraints.java" startLine="62" startPosition="61" endLine="63" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1012626999295964138" fileName="CsVariableReference_Constraints.java" startLine="67" startPosition="7" endLine="68" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1012626999295964138" fileName="CsVariableReference_Constraints.java" startLine="25" startPosition="0" endLine="28" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CsVariableReference_Constraints#()V" />
+    <nodeInfo nodeId="989807379181095928" fileName="CsVariableReference_Constraints.java" startLine="53" startPosition="164" endLine="56" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="2205814310922252794" fileName="CsVariableReference_Constraints.java" startLine="47" startPosition="0" endLine="51" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="1012626999295964138" fileName="CsVariableReference_Constraints.java" startLine="33" startPosition="123" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnScopeProvider#()Z" />
+    <nodeInfo nodeId="989807379181063785" fileName="CsVariableReference_Constraints.java" startLine="52" startPosition="0" endLine="57" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="1012626999295964138" fileName="CsVariableReference_Constraints.java" startLine="60" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSearchScopeValidatorNode#()Ljetbrains/mps/smodel/SNodePointer;" />
+    <nodeInfo nodeId="1012626999295964138" fileName="CsVariableReference_Constraints.java" startLine="42" startPosition="49" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createSearchScopeOrListOfNodes#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljava/lang/Object;" />
+    <nodeInfo nodeId="1012626999295964138" fileName="CsVariableReference_Constraints.java" startLine="41" startPosition="56" endLine="65" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1012626999295964138" fileName="CsVariableReference_Constraints.java" startLine="38" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+    <nodeInfo nodeId="1012626999295964138" fileName="CsVariableReference_Constraints.java" startLine="32" startPosition="75" endLine="67" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1012626999295964138" fileName="CsVariableReference_Constraints.java" startLine="29" startPosition="0" endLine="70" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNotDefaultReferences#()Ljava/util/Map;" />
+    <scopeInfo nodeId="1012626999295964138" fileName="CsVariableReference_Constraints.java" startLine="26" startPosition="44" endLine="27" endPosition="55" />
+    <scopeInfo nodeId="1012626999295964138" fileName="CsVariableReference_Constraints.java" startLine="35" startPosition="44" endLine="36" endPosition="20" />
+    <scopeInfo nodeId="989807379181095931" fileName="CsVariableReference_Constraints.java" startLine="54" startPosition="220" endLine="55" endPosition="138" />
+    <scopeInfo nodeId="1012626999295964138" fileName="CsVariableReference_Constraints.java" startLine="62" startPosition="61" endLine="63" endPosition="58" />
+    <scopeInfo nodeId="8981878424754633981" fileName="CsVariableReference_Constraints.java" startLine="48" startPosition="219" endLine="50" endPosition="90" />
+    <scopeInfo nodeId="1012626999295964138" fileName="CsVariableReference_Constraints.java" startLine="25" startPosition="0" endLine="28" endPosition="3" />
+    <scopeInfo nodeId="989807379181063788" fileName="CsVariableReference_Constraints.java" startLine="53" startPosition="164" endLine="56" endPosition="15" />
+    <scopeInfo nodeId="989807379181095928" fileName="CsVariableReference_Constraints.java" startLine="53" startPosition="164" endLine="56" endPosition="15" />
+    <scopeInfo nodeId="2205814310922252794" fileName="CsVariableReference_Constraints.java" startLine="47" startPosition="0" endLine="51" endPosition="13">
+      <varInfo nodeId="2205814310922252820" varName="csGlobalVariableDeclaration" />
+    </scopeInfo>
+    <scopeInfo nodeId="1012626999295964138" fileName="CsVariableReference_Constraints.java" startLine="33" startPosition="123" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="989807379181063785" fileName="CsVariableReference_Constraints.java" startLine="52" startPosition="0" endLine="57" endPosition="13" />
+    <scopeInfo nodeId="1012626999295964138" fileName="CsVariableReference_Constraints.java" startLine="60" startPosition="0" endLine="65" endPosition="0" />
+    <scopeInfo nodeId="1012626999295964141" fileName="CsVariableReference_Constraints.java" startLine="44" startPosition="142" endLine="58" endPosition="32">
+      <varInfo nodeId="8981878424754633925" varName="sourceElementList" />
+      <varInfo nodeId="1012626999295964143" varName="declarations" />
+    </scopeInfo>
+    <scopeInfo nodeId="1012626999295964138" fileName="CsVariableReference_Constraints.java" startLine="42" startPosition="49" endLine="60" endPosition="0" />
+    <scopeInfo nodeId="1012626999295964138" fileName="CsVariableReference_Constraints.java" startLine="41" startPosition="56" endLine="65" endPosition="10" />
+    <scopeInfo nodeId="1012626999295964138" fileName="CsVariableReference_Constraints.java" startLine="38" startPosition="0" endLine="67" endPosition="0" />
+    <scopeInfo nodeId="1012626999295964138" fileName="CsVariableReference_Constraints.java" startLine="31" startPosition="83" endLine="68" endPosition="22" />
+    <scopeInfo nodeId="1012626999295964138" fileName="CsVariableReference_Constraints.java" startLine="29" startPosition="0" endLine="70" endPosition="0" />
+    <unitInfo nodeId="1012626999295964138" fileName="CsVariableReference_Constraints.java" startLine="42" startPosition="19" endLine="65" endPosition="9" unitName="coffescript.constraints.CsVariableReference_Constraints$2" />
+    <unitInfo nodeId="1012626999295964138" fileName="CsVariableReference_Constraints.java" startLine="33" startPosition="52" endLine="67" endPosition="5" unitName="coffescript.constraints.CsVariableReference_Constraints$1" />
+    <unitInfo nodeId="1012626999295964138" fileName="CsVariableReference_Constraints.java" startLine="23" startPosition="0" endLine="71" endPosition="0" unitName="coffescript.constraints.CsVariableReference_Constraints" />
+  </root>
+  <root nodeId="2868270203310315305">
+    <nodeInfo nodeId="2868270203310315305" fileName="CsParameterReference_Constraints.java" startLine="23" startPosition="81" endLine="24" endPosition="178" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_wsu7kk_a0a1a0a0a1a0b0a1a0" />
+    <nodeInfo nodeId="2868270203310315305" fileName="CsParameterReference_Constraints.java" startLine="26" startPosition="45" endLine="27" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="2868270203310315305" fileName="CsParameterReference_Constraints.java" startLine="31" startPosition="83" endLine="32" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2868270203310315305" fileName="CsParameterReference_Constraints.java" startLine="35" startPosition="44" endLine="36" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2868270203310342787" fileName="CsParameterReference_Constraints.java" startLine="44" startPosition="142" endLine="45" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2868270203310342801" fileName="CsParameterReference_Constraints.java" startLine="46" startPosition="160" endLine="47" endPosition="207" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2868270203310379824" fileName="CsParameterReference_Constraints.java" startLine="48" startPosition="13" endLine="49" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2868270203310315305" fileName="CsParameterReference_Constraints.java" startLine="53" startPosition="61" endLine="54" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2868270203310315305" fileName="CsParameterReference_Constraints.java" startLine="58" startPosition="7" endLine="59" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2868270203310315305" fileName="CsParameterReference_Constraints.java" startLine="25" startPosition="0" endLine="28" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CsParameterReference_Constraints#()V" />
+    <nodeInfo nodeId="2868270203310342793" fileName="CsParameterReference_Constraints.java" startLine="45" startPosition="62" endLine="48" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="2868270203310315305" fileName="CsParameterReference_Constraints.java" startLine="33" startPosition="123" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnScopeProvider#()Z" />
+    <nodeInfo nodeId="2868270203310315305" fileName="CsParameterReference_Constraints.java" startLine="51" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSearchScopeValidatorNode#()Ljetbrains/mps/smodel/SNodePointer;" />
+    <nodeInfo nodeId="2868270203310315305" fileName="CsParameterReference_Constraints.java" startLine="42" startPosition="49" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createSearchScopeOrListOfNodes#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljava/lang/Object;" />
+    <nodeInfo nodeId="2868270203310315305" fileName="CsParameterReference_Constraints.java" startLine="41" startPosition="56" endLine="56" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2868270203310315305" fileName="CsParameterReference_Constraints.java" startLine="38" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+    <nodeInfo nodeId="2868270203310315305" fileName="CsParameterReference_Constraints.java" startLine="32" startPosition="75" endLine="58" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2868270203310315305" fileName="CsParameterReference_Constraints.java" startLine="29" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNotDefaultReferences#()Ljava/util/Map;" />
+    <scopeInfo nodeId="2868270203310315305" fileName="CsParameterReference_Constraints.java" startLine="26" startPosition="45" endLine="27" endPosition="56" />
+    <scopeInfo nodeId="2868270203310315305" fileName="CsParameterReference_Constraints.java" startLine="35" startPosition="44" endLine="36" endPosition="20" />
+    <scopeInfo nodeId="2868270203310342800" fileName="CsParameterReference_Constraints.java" startLine="46" startPosition="160" endLine="47" endPosition="207" />
+    <scopeInfo nodeId="2868270203310315305" fileName="CsParameterReference_Constraints.java" startLine="53" startPosition="61" endLine="54" endPosition="58" />
+    <scopeInfo nodeId="2868270203310315305" fileName="CsParameterReference_Constraints.java" startLine="25" startPosition="0" endLine="28" endPosition="3" />
+    <scopeInfo nodeId="2868270203310342793" fileName="CsParameterReference_Constraints.java" startLine="45" startPosition="62" endLine="48" endPosition="13" />
+    <scopeInfo nodeId="2868270203310315305" fileName="CsParameterReference_Constraints.java" startLine="33" startPosition="123" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="2868270203310342786" fileName="CsParameterReference_Constraints.java" startLine="44" startPosition="142" endLine="49" endPosition="32">
+      <varInfo nodeId="2868270203310342788" varName="declarations" />
+    </scopeInfo>
+    <scopeInfo nodeId="2868270203310315305" fileName="CsParameterReference_Constraints.java" startLine="51" startPosition="0" endLine="56" endPosition="0" />
+    <scopeInfo nodeId="2868270203310315305" fileName="CsParameterReference_Constraints.java" startLine="42" startPosition="49" endLine="51" endPosition="0" />
+    <scopeInfo nodeId="2868270203310315305" fileName="CsParameterReference_Constraints.java" startLine="41" startPosition="56" endLine="56" endPosition="10" />
+    <scopeInfo nodeId="2868270203310315305" fileName="CsParameterReference_Constraints.java" startLine="38" startPosition="0" endLine="58" endPosition="0" />
+    <scopeInfo nodeId="2868270203310315305" fileName="CsParameterReference_Constraints.java" startLine="31" startPosition="83" endLine="59" endPosition="22" />
+    <scopeInfo nodeId="2868270203310315305" fileName="CsParameterReference_Constraints.java" startLine="29" startPosition="0" endLine="61" endPosition="0" />
+    <unitInfo nodeId="2868270203310315305" fileName="CsParameterReference_Constraints.java" startLine="42" startPosition="19" endLine="56" endPosition="9" unitName="coffescript.constraints.CsParameterReference_Constraints$2" />
+    <unitInfo nodeId="2868270203310315305" fileName="CsParameterReference_Constraints.java" startLine="33" startPosition="52" endLine="58" endPosition="5" unitName="coffescript.constraints.CsParameterReference_Constraints$1" />
+    <unitInfo nodeId="2868270203310315305" fileName="CsParameterReference_Constraints.java" startLine="23" startPosition="0" endLine="62" endPosition="0" unitName="coffescript.constraints.CsParameterReference_Constraints" />
+  </root>
+  <root nodeId="6013483361553582994">
+    <nodeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="15" startPosition="50" endLine="16" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="20" startPosition="82" endLine="21" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="24" startPosition="37" endLine="25" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="29" startPosition="56" endLine="30" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="30" startPosition="38" endLine="31" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6013483361553582999" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="30" startPosition="38" endLine="31" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="36" startPosition="37" endLine="37" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="41" startPosition="56" endLine="42" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="42" startPosition="37" endLine="43" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6013483361553583011" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="42" startPosition="37" endLine="43" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="45" startPosition="7" endLine="46" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="14" startPosition="86" endLine="17" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CsBaseVariableDeclaration_Constraints#()V" />
+    <nodeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="22" startPosition="82" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnGetter#()Z" />
+    <nodeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="34" startPosition="80" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnGetter#()Z" />
+    <nodeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="27" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValue#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IScope;)Ljava/lang/Object;" />
+    <nodeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="39" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValue#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IScope;)Ljava/lang/Object;" />
+    <nodeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="21" startPosition="74" endLine="33" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="33" startPosition="7" endLine="45" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="18" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNotDefaultProperties#()Ljava/util/Map;" />
+    <scopeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="15" startPosition="50" endLine="16" endPosition="61" />
+    <scopeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="24" startPosition="37" endLine="25" endPosition="20" />
+    <scopeInfo nodeId="6013483361553582998" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="30" startPosition="38" endLine="31" endPosition="67" />
+    <scopeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="36" startPosition="37" endLine="37" endPosition="20" />
+    <scopeInfo nodeId="6013483361553583010" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="42" startPosition="37" endLine="43" endPosition="67" />
+    <scopeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="29" startPosition="56" endLine="31" endPosition="67" />
+    <scopeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="41" startPosition="56" endLine="43" endPosition="67" />
+    <scopeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="14" startPosition="86" endLine="17" endPosition="3" />
+    <scopeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="22" startPosition="82" endLine="27" endPosition="0" />
+    <scopeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="34" startPosition="80" endLine="39" endPosition="0" />
+    <scopeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="27" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="39" startPosition="0" endLine="45" endPosition="0" />
+    <scopeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="20" startPosition="82" endLine="46" endPosition="22" />
+    <scopeInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="18" startPosition="0" endLine="48" endPosition="0" />
+    <unitInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="22" startPosition="32" endLine="33" endPosition="5" unitName="coffescript.constraints.CsBaseVariableDeclaration_Constraints$1" />
+    <unitInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="34" startPosition="31" endLine="45" endPosition="5" unitName="coffescript.constraints.CsBaseVariableDeclaration_Constraints$2" />
+    <unitInfo nodeId="6013483361553582994" fileName="CsBaseVariableDeclaration_Constraints.java" startLine="14" startPosition="0" endLine="49" endPosition="0" unitName="coffescript.constraints.CsBaseVariableDeclaration_Constraints" />
+  </root>
+</debugInfo>
+

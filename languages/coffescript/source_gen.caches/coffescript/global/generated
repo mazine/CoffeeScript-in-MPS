@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="-9kigw4ihd7iznf2d21pa0tt4b17flcw">
+  <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
+  <dep model="r:27206aae-969f-4c27-a941-ec1e4cf57738(webr.javascript.generator.baseLanguage.template.classStep@generator)" />
+  <common hash="-uvrh03dka23x8le8gfeafikoyt2j6u" dependsOnNodes="true">
+    <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:27206aae-969f-4c27-a941-ec1e4cf57738(webr.javascript.generator.baseLanguage.template.classStep@generator)" />
+  </common>
+  <source id="6811022195824232216" hash="-6pr6hih0t0aqaox5xx7360hq0mf7wt9">
+    <dep model="r:27206aae-969f-4c27-a941-ec1e4cf57738(webr.javascript.generator.baseLanguage.template.classStep@generator)" />
+  </source>
+</dependencies>
+
