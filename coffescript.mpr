@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CodeStyleSettings">
+    <option name="fieldPrefix" value="" />
+    <option name="fieldSuffix" value="" />
+    <option name="lineSeparator" value="&#13;&#10;" />
+    <option name="localVariablePrefix" value="" />
+    <option name="localVariableSuffix" value="" />
+    <option name="parameterPrefix" value="" />
+    <option name="parameterSuffix" value="" />
+    <option name="staticFieldPrefix" value="" />
+    <option name="staticFieldSuffix" value="" />
+  </component>
+  <component name="DependencyValidationManager">
+    <option name="SKIP_IMPORT_STATEMENTS" value="false" />
+  </component>
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="${project}/languages/coffescript/coffescript.mpl" />
+      <modulePath path="${project}/solutions/coffescript.sandbox/coffescript.sandbox.msd" />
+      <modulePath path="${project}/languages/coffeeScript/coffeeScript.mpl" folder="" />
+    </projectModules>
+    <genConfs>
+      <genConfModels name="CoffeScriptLanguageTest">
+        <models>
+          <model modelRef="r:0bd65ac5-b3f9-4ae3-92c4-8ca4284a8a87(coffescript.test)" />
+        </models>
+      </genConfModels>
+    </genConfs>
+  </component>
+  <component name="ProjectLibraryManager">
+    <option name="libraries">
+      <map>
+        <entry key="Webr-DNQ">
+          <value>
+            <Library>
+              <option name="name" value="Webr-DNQ" />
+              <option name="path" value="$USER_HOME$/Downloads/webr-dnq" />
+            </Library>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="ProjectModuleManager">
+    <modules />
+  </component>
+  <component name="ProjectRootManager" version="2" />
+  <component name="ProjectVersion">
+    <option name="version" value="2.0" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+  </component>
+</project>
+
