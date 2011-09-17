@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="CoffeeParameterReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.webr.coffeeScript.behavior.CoffeeParameterReference_BehaviorDescriptor" />
   <unitInfo fileName="CoffeeParameterDeclaration_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.webr.coffeeScript.behavior.CoffeeParameterDeclaration_BehaviorDescriptor" />
   <unitInfo fileName="CoffeeClosure_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.webr.coffeeScript.behavior.CoffeeClosure_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.webr.coffeeScript.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="28" endPosition="0" unitName="jetbrains.mps.webr.coffeeScript.behavior.BehaviorAspectDescriptor" />
   <root nodeId="4367459641968105258">
     <nodeInfo nodeId="4367459641968110288" fileName="CoffeeClosure_Behavior.java" startLine="14" startPosition="78" endLine="15" endPosition="217" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4367459641968105258" fileName="CoffeeClosure_Behavior.java" startLine="10" startPosition="37" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />

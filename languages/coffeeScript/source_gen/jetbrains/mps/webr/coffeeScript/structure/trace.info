@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="CoffeeScript_Language.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.webr.coffeeScript.structure.CoffeeScript_Language" />
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.webr.coffeeScript.structure.StructureAspectDescriptor" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="29" endPosition="0" unitName="jetbrains.mps.webr.coffeeScript.structure.StructureAspectDescriptor" />
+  <root nodeId="4009636172531190933">
+    <nodeInfo nodeId="4009636172531190933" fileName="CoffeeParameterReference.java" startLine="11" startPosition="71" endLine="12" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
+    <nodeInfo nodeId="4009636172531190933" fileName="CoffeeParameterReference.java" startLine="14" startPosition="47" endLine="15" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="4009636172531190933" fileName="CoffeeParameterReference.java" startLine="18" startPosition="63" endLine="19" endPosition="126" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4009636172531190933" fileName="CoffeeParameterReference.java" startLine="22" startPosition="72" endLine="23" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4009636172531190933" fileName="CoffeeParameterReference.java" startLine="26" startPosition="79" endLine="27" endPosition="203" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4009636172531190933" fileName="CoffeeParameterReference.java" startLine="30" startPosition="65" endLine="31" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4009636172531190933" fileName="CoffeeParameterReference.java" startLine="13" startPosition="0" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CoffeeParameterReference#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="4009636172531190933" fileName="CoffeeParameterReference.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getParameterDeclaration#()Ljetbrains/mps/smodel/INodeAdapter;" />
+    <nodeInfo nodeId="4009636172531190933" fileName="CoffeeParameterReference.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setParameterDeclaration#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
+    <nodeInfo nodeId="4009636172531190933" fileName="CoffeeParameterReference.java" startLine="25" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)Ljetbrains/mps/webr/coffeeScript/structure/CoffeeParameterReference;" />
+    <nodeInfo nodeId="4009636172531190933" fileName="CoffeeParameterReference.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)Ljetbrains/mps/webr/coffeeScript/structure/CoffeeParameterReference;" />
+    <scopeInfo nodeId="4009636172531190933" fileName="CoffeeParameterReference.java" startLine="14" startPosition="47" endLine="15" endPosition="16" />
+    <scopeInfo nodeId="4009636172531190933" fileName="CoffeeParameterReference.java" startLine="18" startPosition="63" endLine="19" endPosition="126" />
+    <scopeInfo nodeId="4009636172531190933" fileName="CoffeeParameterReference.java" startLine="22" startPosition="72" endLine="23" endPosition="42" />
+    <scopeInfo nodeId="4009636172531190933" fileName="CoffeeParameterReference.java" startLine="26" startPosition="79" endLine="27" endPosition="203" />
+    <scopeInfo nodeId="4009636172531190933" fileName="CoffeeParameterReference.java" startLine="30" startPosition="65" endLine="31" endPosition="59" />
+    <scopeInfo nodeId="4009636172531190933" fileName="CoffeeParameterReference.java" startLine="13" startPosition="0" endLine="16" endPosition="3" />
+    <scopeInfo nodeId="4009636172531190933" fileName="CoffeeParameterReference.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="4009636172531190933" fileName="CoffeeParameterReference.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="4009636172531190933" fileName="CoffeeParameterReference.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="4009636172531190933" fileName="CoffeeParameterReference.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
+    <unitInfo nodeId="4009636172531190933" fileName="CoffeeParameterReference.java" startLine="11" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.webr.coffeeScript.structure.CoffeeParameterReference" />
+  </root>
   <root nodeId="7179190936672002584">
     <nodeInfo nodeId="7179190936672002584" fileName="CoffeeClosure.java" startLine="17" startPosition="82" endLine="18" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="7179190936672002584" fileName="CoffeeClosure.java" startLine="18" startPosition="97" endLine="19" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />

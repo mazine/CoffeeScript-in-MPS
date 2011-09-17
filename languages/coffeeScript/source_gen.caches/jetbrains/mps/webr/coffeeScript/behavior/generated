@@ -16,7 +16,7 @@
   <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
   <dep model="r:145f797c-a02f-444d-99aa-415c563ab48d(webr.javascript.behavior)" />
   <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
-  <dep model="r:9a3d37f6-ed69-4ad3-9c52-ea0ee7c74f6f(jetbrains.mps.webr.coffeeScript.structure)" hash="-iulfnscxzdv0a2hjvtq14soh3ncal5" />
+  <dep model="r:9a3d37f6-ed69-4ad3-9c52-ea0ee7c74f6f(jetbrains.mps.webr.coffeeScript.structure)" hash="-azgews8vo44bi7iyl3dcre7v2vfbxp2" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
   <dep model="r:f445b203-80a4-439b-81f6-46572b14f40c(webr.javascript.structure)" />
@@ -40,6 +40,7 @@
     <file name="BehaviorAspectDescriptor.java" />
     <file name="CoffeeClosure_BehaviorDescriptor.java" />
     <file name="CoffeeParameterDeclaration_BehaviorDescriptor.java" />
+    <file name="CoffeeParameterReference_BehaviorDescriptor.java" />
   </common>
   <source id="4367459641968105258" name="CoffeeClosure_Behavior" hash="2n9nxkfrs4ugpqe70aglhmln5pb31an">
     <dep model="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#jetbrains.mps.lang.smodel.generator.smodelAdapter(MPS.Classpath/jetbrains.mps.lang.smodel.generator.smodelAdapter@java_stub)" />

@@ -8,7 +8,7 @@ import jetbrains.mps.smodel.runtime.impl.CompiledConceptDescriptor;
 import jetbrains.mps.smodel.runtime.interpreted.StructureAspectInterpreted;
 
 public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.StructureAspectDescriptor {
-  private static String[] stringSwitchCases_1htk8d_a0a0a = new String[]{"jetbrains.mps.webr.coffeeScript.structure.CoffeeClosure", "jetbrains.mps.webr.coffeeScript.structure.CoffeeParameterDeclaration"};
+  private static String[] stringSwitchCases_1htk8d_a0a0a = new String[]{"jetbrains.mps.webr.coffeeScript.structure.CoffeeClosure", "jetbrains.mps.webr.coffeeScript.structure.CoffeeParameterDeclaration", "jetbrains.mps.webr.coffeeScript.structure.CoffeeParameterReference"};
 
   public StructureAspectDescriptor() {
   }
@@ -19,6 +19,8 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
         return new CompiledConceptDescriptor("jetbrains.mps.webr.coffeeScript.structure.CoffeeClosure", "webr.javascript.structure.JsExpression", false, new String[]{"webr.javascript.structure.JsExpression", "webr.javascript.structure.JsStatementListHolder"}, new String[]{"explicitMultiline"}, new String[]{});
       case 1:
         return new CompiledConceptDescriptor("jetbrains.mps.webr.coffeeScript.structure.CoffeeParameterDeclaration", "webr.javascript.structure.JsBaseVariableDeclaration", false, new String[]{"webr.javascript.structure.JsBaseVariableDeclaration"}, new String[]{}, new String[]{});
+      case 2:
+        return new CompiledConceptDescriptor("jetbrains.mps.webr.coffeeScript.structure.CoffeeParameterReference", "webr.javascript.structure.JsBaseVariableReference", false, new String[]{"webr.javascript.structure.JsBaseVariableReference"}, new String[]{}, new String[]{"parameterDeclaration"});
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }

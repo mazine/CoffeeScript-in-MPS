@@ -17,6 +17,10 @@
       <property name="name" nameId="tpck.1169194664001" value="CoffeeParameterDeclaration" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="ie2r.1187247820093" resolveInfo="JsBaseVariableDeclaration" />
     </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4009636172531190933">
+      <property name="name" nameId="tpck.1169194664001" value="CoffeeParameterReference" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="ie2r.1187253318276" resolveInfo="JsBaseVariableReference" />
+    </node>
   </roots>
   <root id="7179190936672002584">
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4367459641968105257">
@@ -47,5 +51,13 @@
     </node>
   </root>
   <root id="7179190936672002591" />
+  <root id="4009636172531190933">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4009636172531200861">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="role" nameId="tpce.1071599776563" value="parameterDeclaration" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="7179190936672002591" resolveInfo="CoffeeParameterDeclaration" />
+      <link role="specializedLink" roleId="tpce.1071599698500" targetNodeId="ie2r.1187253375910" />
+    </node>
+  </root>
 </model>
 
