@@ -26,6 +26,9 @@
       <node role="sourceElement" roleId="ie2r.1166748643445" type="ie2r.JsCommentStatement" typeId="ie2r.1195639883899" id="8843550914503056915">
         <property name="text" nameId="ie2r.1195639905290" value="Last expression statement is return statement" />
       </node>
+      <node role="sourceElement" roleId="ie2r.1166748643445" type="ie2r.JsCommentStatement" typeId="ie2r.1195639883899" id="4009636172531348315">
+        <property name="text" nameId="ie2r.1195639905290" value="Initialize parameters" />
+      </node>
       <node role="sourceElement" roleId="ie2r.1166748643445" type="ie2r.VariableStatement" typeId="ie2r.1178673074970" id="8843550914503038307">
         <node role="variableDeclaration" roleId="ie2r.1178673576377" type="ie2r.JsVariableDeclaration" typeId="ie2r.1182030023336" id="8843550914503038308">
           <property name="variableName" nameId="ie2r.1187250887531" value="d" />
@@ -68,7 +71,52 @@
                 <link role="classDeclaration" roleId="ie2r.1182810249251" targetNodeId="a5l4.1188207080276" />
               </node>
             </node>
-            <node role="statementList" roleId="ie2r.1187915272658" type="ie2r.JsStatementList" typeId="ie2r.1183041653208" id="4367459641968177904" />
+            <node role="statementList" roleId="ie2r.1187915272658" type="ie2r.JsStatementList" typeId="ie2r.1183041653208" id="4367459641968177904">
+              <node role="statement" roleId="ie2r.1183041671600" type="ie2r.JsExpressionStatement" typeId="ie2r.1178247634532" id="4009636172531348308">
+                <node role="expression" roleId="ie2r.1178247650408" type="ie2r.JsBinaryOperation" typeId="ie2r.1183061888474" id="4009636172531348310">
+                  <link role="binaryOperator" roleId="ie2r.1183062128540" targetNodeId="a5l4.1183460536283" />
+                  <node role="rightExpression" roleId="ie2r.1183062115101" type="fex0.CoffeeParameterReference" typeId="fex0.4009636172531190933" id="4009636172531348313">
+                    <link role="baseVariableDeclaration" roleId="ie2r.1187253375910" targetNodeId="4367459641968177894" />
+                  </node>
+                  <node role="leftExpression" roleId="ie2r.1183062107710" type="fex0.CoffeeParameterReference" typeId="fex0.4009636172531190933" id="4009636172531348309">
+                    <link role="baseVariableDeclaration" roleId="ie2r.1187253375910" targetNodeId="4367459641968177894" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="sourceElement" roleId="ie2r.1166748643445" type="ie2r.VariableStatement" typeId="ie2r.1178673074970" id="4009636172531348317">
+        <node role="variableDeclaration" roleId="ie2r.1178673576377" type="ie2r.JsVariableDeclaration" typeId="ie2r.1182030023336" id="4009636172531348318">
+          <property name="variableName" nameId="ie2r.1187250887531" value="cube" />
+          <node role="initializer" roleId="ie2r.1187247896438" type="fex0.CoffeeClosure" typeId="fex0.7179190936672002584" id="4009636172531348321">
+            <node role="statementList" roleId="ie2r.1187915272658" type="ie2r.JsStatementList" typeId="ie2r.1183041653208" id="4009636172531348322">
+              <node role="statement" roleId="ie2r.1183041671600" type="ie2r.JsExpressionStatement" typeId="ie2r.1178247634532" id="4009636172531375365">
+                <node role="expression" roleId="ie2r.1178247650408" type="ie2r.JsBinaryOperation" typeId="ie2r.1183061888474" id="4009636172531375371">
+                  <link role="binaryOperator" roleId="ie2r.1183062128540" targetNodeId="a5l4.1183460536283" />
+                  <node role="rightExpression" roleId="ie2r.1183062115101" type="fex0.CoffeeParameterReference" typeId="fex0.4009636172531190933" id="4009636172531375374">
+                    <link role="baseVariableDeclaration" roleId="ie2r.1187253375910" targetNodeId="4009636172531375362" />
+                  </node>
+                  <node role="leftExpression" roleId="ie2r.1183062107710" type="ie2r.CallExpression" typeId="ie2r.1192827816569" id="4009636172531375367">
+                    <node role="argumentList" roleId="ie2r.1192827984279" type="ie2r.ArgumentList" typeId="ie2r.1178499836490" id="4009636172531375369">
+                      <node role="argument" roleId="ie2r.1178499863670" type="fex0.CoffeeParameterReference" typeId="fex0.4009636172531190933" id="4009636172531375370">
+                        <link role="baseVariableDeclaration" roleId="ie2r.1187253375910" targetNodeId="4009636172531375362" />
+                      </node>
+                    </node>
+                    <node role="expression" roleId="ie2r.1192827900132" type="ie2r.VariableReference" typeId="ie2r.1182031690995" id="4009636172531375366">
+                      <link role="baseVariableDeclaration" roleId="ie2r.1187253375910" targetNodeId="4367459641968177888" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="parameter" roleId="fex0.7179190936672002590" type="fex0.CoffeeParameterDeclaration" typeId="fex0.7179190936672002591" id="4009636172531375362">
+              <property name="variableName" nameId="ie2r.1187250887531" value="x" />
+              <node role="type" roleId="ie2r.1187247869487" type="ie2r.ClassType" typeId="ie2r.1182809844797" id="4009636172531375364">
+                <link role="classDeclaration" roleId="ie2r.1182810249251" targetNodeId="a5l4.1188207080276" />
+              </node>
+            </node>
           </node>
         </node>
       </node>

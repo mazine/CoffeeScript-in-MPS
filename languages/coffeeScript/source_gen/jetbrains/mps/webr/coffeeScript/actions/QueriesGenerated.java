@@ -8,11 +8,18 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.List;
 import jetbrains.mps.smodel.action.INodeSubstituteAction;
-import jetbrains.mps.smodel.action.SideTransformActionsBuilderContext;
+import jetbrains.mps.smodel.action.NodeSubstituteActionsFactoryContext;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.util.NameUtil;
+import jetbrains.mps.smodel.action.DefaultSimpleSubstituteAction;
+import jetbrains.mps.smodel.SModel;
+import jetbrains.mps.smodel.action.SNodeFactoryOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import org.apache.commons.lang.StringUtils;
+import jetbrains.mps.smodel.action.SideTransformActionsBuilderContext;
 import jetbrains.mps.smodel.action.AbstractSideTransformHintSubstituteAction;
 import jetbrains.mps.util.Calculable;
 import jetbrains.mps.smodel.action.ModelActions;
@@ -20,6 +27,10 @@ import jetbrains.mps.nodeEditor.CellSide;
 
 public class QueriesGenerated {
   public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_CoffeeParameterDeclaration_7179190936672045672(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    return SLinkOperations.getTarget(_context.getSourceNode(), "initializer", true) == null;
+  }
+
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_CoffeeParameterDeclaration_4009636172531374539(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
     return SLinkOperations.getTarget(_context.getSourceNode(), "initializer", true) == null;
   }
 
@@ -39,7 +50,66 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getSourceNode(), "returnType", true) == null;
   }
 
+  public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_CoffeeParameterDeclaration_4009636172531348328(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
+    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
+    {
+      SNode outputConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.webr.coffeeScript.structure.CoffeeParameterDeclaration");
+      SNode childConcept = (SNode) _context.getChildConcept();
+      if (outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
+        ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
+          public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
+            SNode node = SNodeFactoryOperations.createNewNode("jetbrains.mps.webr.coffeeScript.structure.CoffeeParameterDeclaration", null);
+            SPropertyOperations.set(node, "variableName", pattern);
+            return node;
+          }
+
+          public boolean hasSubstitute() {
+            return true;
+          }
+
+          public boolean canSubstitute_internal(String pattern, boolean strictly) {
+            return StringUtils.isNotEmpty(pattern) && pattern.matches("[a-zA-Z[_]][a-zA-Z0-9[_]]*");
+          }
+
+          public String getMatchingText(String pattern) {
+            return pattern;
+          }
+
+          public String getVisibleMatchingText(String pattern) {
+            return this.getMatchingText(pattern);
+          }
+        });
+      }
+    }
+    return result;
+  }
+
   public static List<INodeSubstituteAction> sideTransform_ActionsFactory_CoffeeParameterDeclaration_7179190936672045671(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
+    {
+      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.webr.coffeeScript.structure.CoffeeParameterDeclaration");
+      ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
+        public SNode doSubstitute(String pattern) {
+          return SLinkOperations.setNewChild(_context.getSourceNode(), "initializer", "webr.javascript.structure.JsExpression");
+        }
+
+        public String getMatchingText(String pattern) {
+          return "=";
+        }
+
+        public String getVisibleMatchingText(String pattern) {
+          return this.getMatchingText(pattern);
+        }
+
+        public String getDescriptionText(String pattern) {
+          return "add default value";
+        }
+      });
+    }
+    return result;
+  }
+
+  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_CoffeeParameterDeclaration_4009636172531374526(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
     List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
     {
       SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.webr.coffeeScript.structure.CoffeeParameterDeclaration");
