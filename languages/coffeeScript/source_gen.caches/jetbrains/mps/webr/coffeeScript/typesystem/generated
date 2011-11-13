@@ -19,7 +19,7 @@
   <dep model="r:00000000-0000-4000-0000-011c895903ac(jetbrains.mps.baseLanguageInternal.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590529(jetbrains.springframework.configuration.generator.baseLanguage.template.main@generator)" />
   <dep model="r:27206aae-969f-4c27-a941-ec1e4cf57738(webr.javascript.generator.baseLanguage.template.classStep@generator)" />
-  <dep model="r:9a3d37f6-ed69-4ad3-9c52-ea0ee7c74f6f(jetbrains.mps.webr.coffeeScript.structure)" hash="-iulfnscxzdv0a2hjvtq14soh3ncal5" />
+  <dep model="r:9a3d37f6-ed69-4ad3-9c52-ea0ee7c74f6f(jetbrains.mps.webr.coffeeScript.structure)" hash="-azgews8vo44bi7iyl3dcre7v2vfbxp2" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
   <dep model="r:f445b203-80a4-439b-81f6-46572b14f40c(webr.javascript.structure)" />

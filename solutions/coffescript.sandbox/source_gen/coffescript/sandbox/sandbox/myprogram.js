@@ -17,6 +17,7 @@ z + z2 * z3;
 num + z1 * z3 < num;
 z1 + num;
 z1 + z2 < num;
+"xc";
 function (x, y, x) {  if (x == null) {
     x = num;
   }

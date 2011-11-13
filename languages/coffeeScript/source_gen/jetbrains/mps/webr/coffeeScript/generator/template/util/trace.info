@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeId="4183672231785766381">
+    <nodeInfo nodeId="4183672231785766391" fileName="CoffeeClosureUtil.java" startLine="15" startPosition="74" endLine="16" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4183672231785766437" fileName="CoffeeClosureUtil.java" startLine="17" startPosition="120" endLine="18" endPosition="114" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4183672231785766460" fileName="CoffeeClosureUtil.java" startLine="19" startPosition="103" endLine="20" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4183672231785766467" fileName="CoffeeClosureUtil.java" startLine="20" startPosition="18" endLine="21" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
+    <nodeInfo nodeId="4183672231785766497" fileName="CoffeeClosureUtil.java" startLine="22" startPosition="233" endLine="23" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="4183672231785766493" fileName="CoffeeClosureUtil.java" startLine="23" startPosition="29" endLine="24" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
+    <nodeInfo nodeId="4183672231785766524" fileName="CoffeeClosureUtil.java" startLine="26" startPosition="5" endLine="27" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4183672231785766381" fileName="CoffeeClosureUtil.java" startLine="11" startPosition="32" endLine="13" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CoffeeClosureUtil#()V" />
+    <nodeInfo nodeId="4183672231785766448" fileName="CoffeeClosureUtil.java" startLine="18" startPosition="114" endLine="25" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4183672231785766397" fileName="CoffeeClosureUtil.java" startLine="16" startPosition="19" endLine="26" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="4183672231785766381" fileName="CoffeeClosureUtil.java" startLine="14" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getIndexOfLastExpressionStatement#(Ljetbrains/mps/smodel/SNode;)I" />
+    <scopeInfo nodeId="4183672231785766381" fileName="CoffeeClosureUtil.java" startLine="12" startPosition="30" endLine="12" endPosition="30" />
+    <scopeInfo nodeId="4183672231785766381" fileName="CoffeeClosureUtil.java" startLine="11" startPosition="32" endLine="13" endPosition="3" />
+    <scopeInfo nodeId="4183672231785766449" fileName="CoffeeClosureUtil.java" startLine="19" startPosition="103" endLine="21" endPosition="14" />
+    <scopeInfo nodeId="4183672231785766470" fileName="CoffeeClosureUtil.java" startLine="22" startPosition="233" endLine="24" endPosition="14" />
+    <scopeInfo nodeId="4183672231785766398" fileName="CoffeeClosureUtil.java" startLine="17" startPosition="120" endLine="25" endPosition="7">
+      <varInfo nodeId="4183672231785766438" varName="statement" />
+    </scopeInfo>
+    <scopeInfo nodeId="4183672231785766397" fileName="CoffeeClosureUtil.java" startLine="16" startPosition="19" endLine="26" endPosition="5">
+      <varInfo nodeId="4183672231785766400" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="4183672231785766386" fileName="CoffeeClosureUtil.java" startLine="15" startPosition="74" endLine="27" endPosition="17">
+      <varInfo nodeId="4183672231785766392" varName="index" />
+    </scopeInfo>
+    <scopeInfo nodeId="4183672231785766381" fileName="CoffeeClosureUtil.java" startLine="14" startPosition="0" endLine="29" endPosition="0" />
+    <unitInfo nodeId="4183672231785766381" fileName="CoffeeClosureUtil.java" startLine="11" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.webr.coffeeScript.generator.template.util.CoffeeClosureUtil" />
+  </root>
+</debugInfo>
+

@@ -7,11 +7,16 @@ import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.generator.template.IfMacroContext;
+import jetbrains.mps.webr.coffeeScript.generator.template.util.CoffeeClosureUtil;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
-import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import jetbrains.mps.internal.collections.runtime.Sequence;
+import java.util.Collections;
 
 public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_4009636172531378796(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -34,12 +39,21 @@ public class QueriesGenerated {
     return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(_context.getNode(), "baseVariableDeclaration", false), "coffeeParameter");
   }
 
+  public static boolean ifMacro_Condition_4183672231785766607(final IOperationContext operationContext, final IfMacroContext _context) {
+    return CoffeeClosureUtil.getIndexOfLastExpressionStatement(SLinkOperations.getTarget(_context.getNode(), "statementList", true)) >= 0;
+  }
+
   public static SNode sourceNodeQuery_4009636172531378786(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "type", true);
   }
 
   public static SNode sourceNodeQuery_4183672231785734351(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "initializer", true);
+  }
+
+  public static SNode sourceNodeQuery_4183672231785766629(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    int index = CoffeeClosureUtil.getIndexOfLastExpressionStatement(SLinkOperations.getTarget(_context.getNode(), "statementList", true));
+    return SLinkOperations.getTarget(SNodeOperations.cast(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getNode(), "statementList", true), "statement", true)).getElement(index), "webr.javascript.structure.JsExpressionStatement"), "expression", true);
   }
 
   public static Iterable sourceNodesQuery_4009636172531399423(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
@@ -55,6 +69,22 @@ public class QueriesGenerated {
   }
 
   public static Iterable sourceNodesQuery_4183672231785702044(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    return SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getNode(), "statementList", true), "statement", true);
+    Iterable<SNode> statements = SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getNode(), "statementList", true), "statement", true);
+    int index = CoffeeClosureUtil.getIndexOfLastExpressionStatement(SLinkOperations.getTarget(_context.getNode(), "statementList", true));
+    if (index >= 0) {
+      statements = Sequence.fromIterable(statements).take(index);
+    }
+    return statements;
+  }
+
+  public static Iterable sourceNodesQuery_4183672231785761046(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    Iterable<SNode> statements = SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getNode(), "statementList", true), "statement", true);
+    int index = CoffeeClosureUtil.getIndexOfLastExpressionStatement(SLinkOperations.getTarget(_context.getNode(), "statementList", true));
+    if (index < 0 || index >= Sequence.fromIterable(statements).count() - 1) {
+      statements = Sequence.fromIterable(Collections.<SNode>emptyList());
+    } else {
+      statements = Sequence.fromIterable(statements).skip(index + 1);
+    }
+    return statements;
   }
 }
