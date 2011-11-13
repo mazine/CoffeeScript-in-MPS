@@ -9,6 +9,7 @@ import jetbrains.mps.webr.coffeeScript.typesystem.TypesystemDescriptor;
 import jetbrains.mps.ide.findusages.BaseFindUsagesDescriptor;
 import java.util.Collection;
 import jetbrains.mps.generator.runtime.TemplateModule;
+import jetbrains.mps.generator.runtime.TemplateUtil;
 
 public class Language extends LanguageRuntime {
   public static ModuleReference MODULE_REFERENCE = ModuleReference.fromString("992a1545-afa2-4ddd-a91e-959803d71db3(jetbrains.mps.webr.coffeeScript)");
@@ -32,6 +33,6 @@ public class Language extends LanguageRuntime {
   }
 
   public Collection<TemplateModule> getGenerators() {
-    return null;
+    return TemplateUtil.<TemplateModule>asCollection(TemplateUtil.createInterpretedGenerator(this, "20198fbe-8e09-4843-88c5-0c963694380f(jetbrains.mps.webr.coffeeScript#4009636172531375382)"));
   }
 }

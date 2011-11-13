@@ -66,9 +66,9 @@
     <nodeInfo nodeId="7179190936672002606" fileName="CoffeeClosure_Editor.java" startLine="134" startPosition="48" endLine="135" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="7179190936672002606" fileName="CoffeeClosure_Editor.java" startLine="135" startPosition="76" endLine="136" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="7179190936672002606" fileName="CoffeeClosure_Editor.java" startLine="136" startPosition="34" endLine="137" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7179190936672002606" fileName="CoffeeClosure_Editor.java" startLine="140" startPosition="88" endLine="141" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7179190936672002606" fileName="CoffeeClosure_Editor.java" startLine="141" startPosition="88" endLine="142" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="7179190936672002606" fileName="CoffeeClosure_Editor.java" startLine="141" startPosition="88" endLine="142" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7179190936672002606" fileName="CoffeeClosure_Editor.java" startLine="140" startPosition="88" endLine="141" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7179190936672002606" fileName="CoffeeClosure_Editor.java" startLine="141" startPosition="92" endLine="142" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7179190936672002606" fileName="CoffeeClosure_Editor.java" startLine="141" startPosition="92" endLine="142" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="7179190936672002606" fileName="CoffeeClosure_Editor.java" startLine="142" startPosition="47" endLine="143" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="7179190936672002606" fileName="CoffeeClosure_Editor.java" startLine="143" startPosition="34" endLine="144" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="7179190936672002606" fileName="CoffeeClosure_Editor.java" startLine="147" startPosition="89" endLine="148" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -224,7 +224,7 @@
     <scopeInfo nodeId="7179190936672002606" fileName="CoffeeClosure_Editor.java" startLine="73" startPosition="82" endLine="74" endPosition="84" />
     <scopeInfo nodeId="7179190936672002606" fileName="CoffeeClosure_Editor.java" startLine="74" startPosition="84" endLine="75" endPosition="82" />
     <scopeInfo nodeId="7179190936672002606" fileName="CoffeeClosure_Editor.java" startLine="107" startPosition="5" endLine="108" endPosition="82" />
-    <scopeInfo nodeId="7179190936672002606" fileName="CoffeeClosure_Editor.java" startLine="141" startPosition="88" endLine="142" endPosition="47" />
+    <scopeInfo nodeId="7179190936672002606" fileName="CoffeeClosure_Editor.java" startLine="141" startPosition="92" endLine="142" endPosition="47" />
     <scopeInfo nodeId="7179190936672002606" fileName="CoffeeClosure_Editor.java" startLine="187" startPosition="106" endLine="188" endPosition="50" />
     <scopeInfo nodeId="8843550914502847035" fileName="CoffeeClosure_Editor.java" startLine="227" startPosition="111" endLine="228" endPosition="71" />
     <scopeInfo nodeId="4367459641968105211" fileName="CoffeeClosure_Editor.java" startLine="231" startPosition="110" endLine="232" endPosition="77" />

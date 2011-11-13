@@ -87,7 +87,7 @@
         </node>
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7179190936672003148">
-        <property name="text" nameId="tpc2.1073389577007" value="-&gt;" />
+        <property name="text" nameId="tpc2.1073389577007" value="→" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="7179190936672003152">
         <property name="usesFolding" nameId="tpc2.1160590353935" value="true" />
@@ -110,7 +110,7 @@
                   <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4367459641968105214">
                     <node role="operand" roleId="tpee.1197027771414" type="tpc2.ConceptFunctionParameter_node" typeId="tpc2.1142886811589" id="4367459641968105213" />
                     <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="4367459641968110318">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="cj3i.4367459641968105261" resolveInfo="isExpanded" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="cj3i.4367459641968105261" resolveInfo="isMultiline" />
                     </node>
                   </node>
                 </node>
@@ -125,7 +125,7 @@
                   <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4367459641968105240">
                     <node role="operand" roleId="tpee.1197027771414" type="tpc2.ConceptFunctionParameter_node" typeId="tpc2.1142886811589" id="4367459641968105241" />
                     <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="4367459641968110319">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="cj3i.4367459641968105261" resolveInfo="isExpanded" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="cj3i.4367459641968105261" resolveInfo="isMultiline" />
                     </node>
                   </node>
                 </node>
@@ -148,7 +148,7 @@
                   <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4367459641968105252">
                     <node role="operand" roleId="tpee.1197027771414" type="tpc2.ConceptFunctionParameter_node" typeId="tpc2.1142886811589" id="4367459641968105253" />
                     <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="4367459641968110320">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="cj3i.4367459641968105261" resolveInfo="isExpanded" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="cj3i.4367459641968105261" resolveInfo="isMultiline" />
                     </node>
                   </node>
                 </node>

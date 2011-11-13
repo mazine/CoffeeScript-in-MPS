@@ -138,7 +138,7 @@ public class CoffeeClosure_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_f9cvwu_e0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "->");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\u2192");
     editorCell.setCellId("Constant_f9cvwu_e0");
     editorCell.setDefaultText("");
     return editorCell;
